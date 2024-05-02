@@ -68,7 +68,7 @@ while ($i = mysqli_fetch_assoc($response)) {
                     </span>
                 </div>
                 <div class="wrap-input100 validate-input" data-validate="ID is required">
-                    <input class="input100" type="text" id="id" name="id" readonly>
+                    <input class="input100" type="number" id="id" name="id" readonly>
                     <span class="focus-input100"></span>
                 </div>
 

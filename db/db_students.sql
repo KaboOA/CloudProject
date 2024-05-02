@@ -40,9 +40,9 @@ INSERT INTO `students` VALUES
 (22010004,'Ahmed Kabary Mostafa',21,3.8456),
 (22010399,'Menna Ossama Mohamed',19,3.9456),
 (22010237,'Mahmoud Ahmed Wahba',21,3.7654),
-(22010289,'Hager Yehia',21,3.6521),
-(220111239,'Ahmed Hisham',21,3.3569),
-(220010250,'Marwan Mahmoud Fathy',21,3.00);
+(22010289,'Hager Yehia AbdAllah',21,3.6521),
+(220111239,'Ahmed Hisham Ahmed',21,3.3569),
+(22010250,'Marwan Mahmoud Fathy',21,3.00);
 
 /*!40000 ALTER TABLE `students` ENABLE KEYS */;
 UNLOCK TABLES;

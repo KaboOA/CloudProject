@@ -18,7 +18,7 @@ if (isset($_GET['id'])) {
     // Check if the query was successful
     if ($result) {
         // Redirect to the page showing the updated student list
-        header("Location: ../index.php");
+        header("Location: ../data.php");
         exit(); // Ensure no further code execution after redirection
     } else {
         // Handle the error if the query fails
@@ -30,7 +30,7 @@ if (isset($_GET['id'])) {
     mysqli_close($connect);
 } else {
     // Redirect to the page showing the student list if the ID parameter is missing
-    header("Location: index.php");
+    header("Location: interface/data/data.php");
     exit(); // Ensure no further code execution after redirection
 }
 ?>
