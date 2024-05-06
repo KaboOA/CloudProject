@@ -24,9 +24,10 @@ DROP TABLE IF EXISTS `students`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `students` (
   `id` int primary key not null,
-  `name` varchar(250) not null,
+  `name` varchar(70) not null,
   `age` int not null,
-  `cgpa` float not null
+  `cgpa` float not null,
+  check (age >= 18 and age <= 25 and cgpa >=0 and cgpa <= 4.0000)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
